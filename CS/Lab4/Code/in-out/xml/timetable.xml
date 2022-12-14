@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+	<wednesday>
+		<lesson>
+			<subject>FPA</subject>
+			<type>Lab</type>
+			<professor>Tkeshelashvili N. M.</professor>
+			<start_time>11:40</start_time>
+			<end_time>13:10</end_time>
+			<building>Kronverksky 49</building>
+			<classroom>1330</classroom>
+			<form>In-class + remote</form>
+			<weeks>Odd</weeks></lesson><lesson>
+			<subject>FPA</subject>
+		<type>Lab</type>
+			<professor>Tkeshelashvili N. M.</professor>
+			<start_time>13:30</start_time>
+			<end_time>15:00</end_time>
+			<building>Kronverksky 49</building>
+			<classroom>1330</classroom>
+			<form>In-class + remote</form>
+			<weeks>Odd</weeks>
+		</lesson>
+		<lesson>
+			<subject>CS</subject><type>Lab</type>
+			<professor>Rybakov S. D.</professor>
+			<start_time>11:40</start_time><end_time>13:10</end_time>
+			<building>Kronverksky 49</building>
+			<classroom>2332</classroom><form>In-class + remote</form>
+			<weeks>Even</weeks>
+		</lesson>
+		<lesson>
+			<subject>CS</subject>
+			<type>Lab</type>
+			<professor>Rybakov S. D.</professor>
+			<start_time>13:30</start_time>
+			<end_time>15:00</end_time>
+			<building>Kronverksky 49</building>
+			<classroom>2332</classroom>
+			<form>In-class + remote</form>
+			<weeks>Even</weeks>
+		</lesson>
+	</wednesday>
+</schedule>

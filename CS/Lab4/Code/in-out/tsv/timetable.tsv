@@ -1,0 +1,5 @@
+subject	type	professor	start_time	end_time	building	classroom	form	weeks
+FPA	Lab	Tkeshelashvili N. M.	11:40	13:10	Kronverksky 49	1330	In-class + remote	Odd
+FPA	Lab	Tkeshelashvili N. M.	13:30	15:00	Kronverksky 49	1330	In-class + remote	Odd
+CS	Lab	Rybakov S. D.	11:40	13:10	Kronverksky 49	2332	In-class + remote	Even
+CS	Lab	Rybakov S. D.	13:30	15:00	Kronverksky 49	2332	In-class + remote	Even

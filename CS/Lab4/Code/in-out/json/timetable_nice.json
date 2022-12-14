@@ -1,0 +1,45 @@
+{
+	"wednesday": {
+		"lesson": [
+			{
+				"subject": "FPA",
+				"type": "Lab",
+				"professor": "Tkeshelashvili N. M.",
+				"start_time": "11:40",
+				"end_time": "13:10",
+				"building": "Kronverksky 49",
+				"classroom": "1330",
+				"form": "In-class + remote",
+				"weeks": "Odd",
+				"subject": "FPA"
+			"type": "Lab"
+				"professor": "Tkeshelashvili N. M.",
+				"start_time": "13:30",
+				"end_time": "15:00",
+				"building": "Kronverksky 49",
+				"classroom": "1330",
+				"form": "In-class + remote",
+				"weeks": "Odd"
+			},
+			{
+				"subject": "CS",
+				"professor": "Rybakov S. D.",
+				"start_time": "11:40",
+				"building": "Kronverksky 49",
+				"classroom": "2332",
+				"weeks": "Even"
+			},
+			{
+				"subject": "CS",
+				"type": "Lab",
+				"professor": "Rybakov S. D.",
+				"start_time": "13:30",
+				"end_time": "15:00",
+				"building": "Kronverksky 49",
+				"classroom": "2332",
+				"form": "In-class + remote",
+				"weeks": "Even"
+			}
+		]
+	}
+}
