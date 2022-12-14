@@ -17,8 +17,8 @@ public class Furnace extends Furniture implements Stokable {
     }
 
     public Furnace() {
-        super("старая");
-        System.out.println("Есть старая печка.");
+        super("обычный");
+        System.out.println("Есть обычная печка.");
     }
 
     public Furnace(String type) {

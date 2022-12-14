@@ -21,7 +21,7 @@ public class Scene {
         return foodCount;
     }
 
-    public static Object[] beginOption() {
+    public static Object[] initStuff() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Выбрать своих героев? (Да/Нет)");
         Sproots sproots;
@@ -88,7 +88,7 @@ public class Scene {
 
     private static boolean askJulio(Julio julio) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Хотите, чтобы " + julio.getName() + " подселился? (Да/Нет)");
+        System.out.println("Будет житься лучше, если " + julio.getName() + " подселиться. Пригласить его? (Да/Нет)");
         while (true) {
             String answer = scanner.nextLine();
             if (answer.equalsIgnoreCase("да")) {
@@ -227,7 +227,13 @@ public class Scene {
         }
     }
 
-    public static void live(Julio julio, Sproots sproots, Chests chests, Beds beds, Furnace furnace, TV tv) {
+    public static void live(Object[] stuff) {
+        Julio julio = (Julio) stuff[0];
+        Sproots sproots = (Sproots) stuff[1];
+        Chests chests = (Chests) stuff[2];
+        Beds beds = (Beds) stuff[3];
+        Furnace furnace = (Furnace) stuff[4];
+        TV tv = (TV) stuff[5];
         while (true) {
             System.out.println("\nНачался новый день.");
             if (!julio.isLivesWithSproots() && askJulio(julio)) {
@@ -241,10 +247,12 @@ public class Scene {
                     System.out.println("С тревожными мыслями о своих врагах " + sproots.getName() +
                             " и " + julio.getName() + " доделали оставшиеся дела.");
                     sleep(julio, sproots, chests, beds, furnace);
+                    System.out.println("Ночью им обоим снились коротышки...");
                     System.out.println("\nНа этом всё!");
                     break;
                 }
                 sleep(julio, sproots, chests, beds, furnace);
+
             } else {
                 routine(sproots, beds, furnace);
                 tv.watch(sproots);

@@ -21,8 +21,8 @@ public class Chests extends Furniture implements SleepableOn {
     }
 
     public Chests() {
-        super("большие");
-        System.out.println("Есть большие сундуки.");
+        super("обычные");
+        System.out.println("Есть обычные сундуки.");
     }
 
     public Chests(String type) {

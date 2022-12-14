@@ -34,8 +34,8 @@ public class Beds extends Furniture implements SleepableOn {
     }
 
     public Beds() {
-        super("удобные");
-        System.out.println("Есть удобные кровати.");
+        super("обычные");
+        System.out.println("Есть обычные кровати.");
     }
 
     public Beds(String type) {

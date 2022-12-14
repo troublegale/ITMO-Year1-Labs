@@ -25,8 +25,8 @@ public class TV extends Furniture {
     }
 
     public TV() {
-        super("квадратный");
-        System.out.println("Есть квадратный телевизор.");
+        super("обычный");
+        System.out.println("Есть обычный телевизор.");
     }
 
     public TV(String type) {
